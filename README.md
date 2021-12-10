@@ -6,5 +6,7 @@ This Github repository contains data, protocols, and analyses to support the ass
 Here is a table of contents to find what you are looking for:
 
 /data : folder with raw, processed, and summarized data
+
 /scripts : folder with .R scripts and JMP reports
+
 /figures : folder with figures generated from R and/or edited Illustrator
