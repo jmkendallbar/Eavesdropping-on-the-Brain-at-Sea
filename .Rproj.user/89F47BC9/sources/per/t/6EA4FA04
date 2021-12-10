@@ -1,0 +1,24 @@
+{
+    "id": "6EA4FA04",
+    "path": "~/GitHub/Eavesdropping-on-the-Brain-at-Sea/scripts/06_SignalQuality_Analysis.R",
+    "project_path": "scripts/06_SignalQuality_Analysis.R",
+    "type": "r_source",
+    "hash": "1433889300",
+    "contents": "",
+    "dirty": false,
+    "created": 1639170260492.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "294,126",
+        "scrollLine": "266"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1639173246,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639173246214,
+    "read_only": false,
+    "read_only_alternatives": []
+}

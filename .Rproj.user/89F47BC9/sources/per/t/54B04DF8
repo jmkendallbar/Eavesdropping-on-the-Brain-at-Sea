@@ -1,0 +1,32 @@
+{
+    "id": "54B04DF8",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639171565655.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "expression": "Raw_Metadata",
+        "caption": "Raw_Metadata",
+        "totalObservations": 4300,
+        "displayedObservations": 4300,
+        "variables": 9,
+        "cacheKey": "E321CAFD",
+        "object": "Raw_Metadata",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=Raw_Metadata&cache_key=E321CAFD&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3037140166856,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639171565655,
+    "read_only": false,
+    "read_only_alternatives": []
+}

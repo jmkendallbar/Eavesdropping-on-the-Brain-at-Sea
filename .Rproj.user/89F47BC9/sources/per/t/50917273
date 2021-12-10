@@ -1,0 +1,32 @@
+{
+    "id": "50917273",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639171902519.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "expression": "ExitWater",
+        "caption": "ExitWater",
+        "totalObservations": 328,
+        "displayedObservations": 328,
+        "variables": 3,
+        "cacheKey": "9DDF984B",
+        "object": "ExitWater",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=ExitWater&cache_key=9DDF984B&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3036987334056,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639171902519,
+    "read_only": false,
+    "read_only_alternatives": []
+}

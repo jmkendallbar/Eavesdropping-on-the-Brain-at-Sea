@@ -1,0 +1,32 @@
+{
+    "id": "1BCBC3F8",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639172587815.0,
+    "source_on_save": false,
+    "relative_order": 13,
+    "properties": {
+        "expression": "SignalData_paired",
+        "caption": "SignalData_paired",
+        "totalObservations": 698,
+        "displayedObservations": 698,
+        "variables": 15,
+        "cacheKey": "E08BF333",
+        "object": "SignalData_paired",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=SignalData_paired&cache_key=E08BF333&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1639172086,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639172587815,
+    "read_only": false,
+    "read_only_alternatives": []
+}

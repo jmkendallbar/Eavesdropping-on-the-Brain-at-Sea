@@ -1,0 +1,32 @@
+{
+    "id": "027C5010",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639171905494.0,
+    "source_on_save": false,
+    "relative_order": 10,
+    "properties": {
+        "expression": "Failed_in_Water_Seconds",
+        "caption": "Failed_in_Water_Seconds",
+        "totalObservations": 12,
+        "displayedObservations": 12,
+        "variables": 3,
+        "cacheKey": "F8129926",
+        "object": "Failed_in_Water_Seconds",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=Failed_in_Water_Seconds&cache_key=F8129926&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3036987334056,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639171905494,
+    "read_only": false,
+    "read_only_alternatives": []
+}

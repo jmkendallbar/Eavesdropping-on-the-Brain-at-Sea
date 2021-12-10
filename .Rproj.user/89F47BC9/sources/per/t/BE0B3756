@@ -1,0 +1,32 @@
+{
+    "id": "BE0B3756",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639170522948.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "expression": "ON_ANIMAL_TIMES",
+        "caption": "ON_ANIMAL_TIMES",
+        "totalObservations": 0,
+        "displayedObservations": 0,
+        "variables": 1,
+        "cacheKey": "0743EA91",
+        "object": "ON_ANIMAL_TIMES",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=ON_ANIMAL_TIMES&cache_key=0743EA91&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 8030597042934194720,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639170522948,
+    "read_only": false,
+    "read_only_alternatives": []
+}

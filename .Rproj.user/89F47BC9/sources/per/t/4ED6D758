@@ -1,0 +1,24 @@
+{
+    "id": "4ED6D758",
+    "path": "~/GitHub/Eavesdropping-on-the-Brain-at-Sea/scripts/01_Metadata.R",
+    "project_path": "scripts/01_Metadata.R",
+    "type": "r_source",
+    "hash": "628761137",
+    "contents": "",
+    "dirty": false,
+    "created": 1639169511162.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "66,0",
+        "scrollLine": "12"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1639170350,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639170350171,
+    "read_only": false,
+    "read_only_alternatives": []
+}

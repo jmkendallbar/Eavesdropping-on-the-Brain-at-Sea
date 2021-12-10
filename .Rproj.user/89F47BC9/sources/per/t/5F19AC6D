@@ -1,0 +1,32 @@
+{
+    "id": "5F19AC6D",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639171946133.0,
+    "source_on_save": false,
+    "relative_order": 11,
+    "properties": {
+        "expression": "EnterWater",
+        "caption": "EnterWater",
+        "totalObservations": 330,
+        "displayedObservations": 330,
+        "variables": 4,
+        "cacheKey": "0F0653A5",
+        "object": "EnterWater",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=EnterWater&cache_key=0F0653A5&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2314861393135935546,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639171946133,
+    "read_only": false,
+    "read_only_alternatives": []
+}

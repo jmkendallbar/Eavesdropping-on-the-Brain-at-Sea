@@ -1,0 +1,32 @@
+{
+    "id": "1769745D",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1639172122526.0,
+    "source_on_save": false,
+    "relative_order": 12,
+    "properties": {
+        "expression": "WaterData",
+        "caption": "WaterData",
+        "totalObservations": "330",
+        "displayedObservations": "330",
+        "variables": "8",
+        "cacheKey": "5A409A8E",
+        "object": "WaterData",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=WaterData&cache_key=5A409A8E&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2482455837108629103,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1639172122526,
+    "read_only": false,
+    "read_only_alternatives": []
+}
