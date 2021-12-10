@@ -1,0 +1,66 @@
+﻿Test Number,12,20,21,23,24,25,26,30,31,,
+Animal,1,2,3,4,5,6,7,8,9,10,34
+Name,Wednesday the Halloweaner,Snoozy Suzy the Superweaner,Dozy Daisy the Juvie,Ashy Ashley the Juvie,Bertha the Sleeping Beauty Juvie,Comatose Courtney the Juvie,Dreamy Denise the Halloweaner,Exhausted Ellie the Weaner,Fatigued Fiona the Juvie,Goodnight Gerty the Weaner,Indolent Izzy
+Nickname,test12_Wednesday,test20_SnoozySuzy,test21_DozyDaisy,test23_AshyAshley,test24_BerthaBeauty,test25_ComaCourtney,test26_DreamyDenise,test30_ExhaustedEllie,test31_FatiguedFiona,test32_GoodnightGerty,test34_IndolentIzzy
+Recording ID,CAPTIVE_1yr-juvenile,WILD_2mo-weanling,WILD_2yr-juvenile,CAPTIVE_2yr-juvenile,CAPTIVE_2yr-juvenile,CAPTIVE_2yr-juvenile,CAPTIVE_1yr-juvenile,WILD_2mo-weanling,WILD_2yr-juvenile,WILD_2mo-weanling,WILD_1yr-juvenile
+Seal.Number,12,17,21,14,15,16,13,18,22,19,20
+Sex,F,F,F,F,F,F,F,F,F,F,F
+Age,"(0,1]","(0,1]","(2,3]","(1,2]","(1,2]","(1,2]","(0,1]","(0,1]","(2,3]","(0,1]","(1,2]"
+Age Estimate,~0.8 years old,75 days old,2.2 years old,1.8 years old,1.8 years old,1.8 years old,~0.8 years old,~2 months old,probable 2.2 year old,~2 months old,~1.2 years old
+Version,V1,V2,V2,V2,V2,V2,V2,V3,V3,V3,V3
+Deployment,1,2,3,4,5,6,7,8,9,44296.8,12
+Seal ID,E645,H312,E411,E710,WN428,WN159,H525,H870,H645,H644,H938
+Pressed Start Logger,10/25/2019 8:20,4/10/2020 17:09,4/24/2020 16:59,9/26/2020 15:59,10/8/2020 11:58,10/16/2020 14:45,10/23/2020 15:59,3/26/2021 15:50,4/4/2021 14:30,4/10/2021 19:11,4/26/2021 16:54
+Logger Start,10/25/2019 8:21,4/10/2020 17:10,4/24/2020 17:00,9/26/2020 16:00,10/8/2020 11:59,10/16/2020 14:46,10/23/2020 16:00,3/26/2021 15:51,4/4/2021 14:31,4/10/2021 19:12,4/26/2021 16:55
+Start from Real Time Clock,,,,,,,,3/25/2021 15:51,4/3/2021 14:31,4/9/2021 19:12,4/25/2021 16:55
+Start for EDF Files,21:03.0,10:01.5,00:01.0,59:59.2,58:59.0,45:58.6,59:58.4,3/26/2021 15:51,4/4/2021 14:31,4/10/2021 19:12,4/26/2021 16:55
+ON ANIMAL,10/25/2019 14:45,4/11/2020 16:46,4/25/2020 11:14,9/27/2020 13:04,10/9/2020 13:44,10/17/2020 19:50,10/24/2020 13:03,3/27/2021 11:47,4/5/2021 9:34,4/11/2021 10:47,4/27/2021 10:48
+OFF ANIMAL,n/a,4/14/2020 18:34,4/28/2020 14:24,10/2/2020 9:55,10/14/2020 9:35,n/a,n/a,4/1/2021 12:41,4/9/2021 12:23,4/16/2021 10:50,5/2/2021 9:59
+Logger Stop,not recorded - off,not recorded - off,4/28/2020 17:55,10/2/2020 11:05,10/14/2020 9:58,not recorded - off,not recorded - off,4/1/2021 15:44,4/9/2021 15:54,4/16/2021 14:21,5/2/2021 12:52
+Device Failure,Yes,No,No,No,No,Yes,Yes,No,No,No,No
+Standard Length,154,165,187,188,206,206,165,157,177,151,170
+Curved Length,179,177,200,199,216,220,175,170,187,167,191
+Ax Girth,132,143,102,124,147,129,139,130,134,129,140
+Mass with cage_kg,200,n/a,n/a,222,277,258,229,133,173,137,175
+Mass cage_kg,82,n/a,n/a,81,81,81,81,17,19,19,18
+Mass animal _kg,118,~200 (not weighed),around 120,141,196,177,148,116,154,118,157
+Mass animal post-study_kg,n/a,n/a,n/a,n/a,n/a,n/a,137,n/a,n/a,n/a,n/a
+Flipper Tag 1,GE645,GH312,GE411,GE711,WN428,WN159,GH525 - ADDED,GH870,GH645,GH644,GH938
+Position,L-ou-Si,R-ou-Si,L-iu-So,R-iu-Si,R-iu-So,L-iu-so,L-iu-So,L-ou-Si,L-iu-So,L-ou-So,R-iu-Si
+Flipper Tag 2,GG734,GH510,GG751,GE710,GH588,WN160,GH527 - ADDED,GK102,GH657,GH651,GH939
+Position,R-iu-So,L-iu-Si,R-ou-Si,L-il-Si,L-ou-So,R-iu-so,R-il-So,R-il-Si,R-ou-Si,R-iu-So,L-ou-So
+Mark,No Mark,702,E411,E711,"H588 {R,L}",WN160,No Mark,210X,0,GH644,H938
+Mark Position,No Mark,"R,L","R,L",R,"R, L",L,No Mark,R,0,"R,L","L,R"
+Birth date,probably in 2019,b/w Jan-23 & 29,in 2018,1/11/2019 (first sighting),~ Jan 2019,~Jan 2019,probably in 2020,~1/15/2021,n/a,0,0
+Wean date,unknown,3/5/2020 0:00,unknown,2/7/2019 0:00,~ March 2019,between 2/21/2019 and 2/23/2019,unknown,2/15/2021 0:00,n/a,n/a,n/a
+Tagged date,unknown,unknown,unknown,2/11/2019 0:00,3/1/2019 0:00,2/23/2019 0:00,unknown,2/20/2021 0:00,n/a,n/a,n/a
+Wean weight_kg,unknown,199.8,unknown,137,unknown,159.3 kg,unknown,141.2,n/a,0,0
+Weaner ID,unknown,not recorded,not recorded,513,not recorded,not recorded,not recorded,367998,n/a,0,0
+Wean Standard Length,unknown,unknown,unknown,148,unknown,unknown,unknown,149,n/a,0,0
+Wean Ax Girth,unknown,unknown,unknown,131,unknown,unknown,unknown,135,n/a,0,0
+Animal ID,51163,51536,49677,49965,51213,51173,52333,53631,53815,53832,53848
+Deployment Resight ID,334707,347591,348614,323448,353048 (capture),353185,353421,369160,371454,372774,374824
+Recovery Resight ID,,,,,,353232,353422,375880,371457,372778,375131
+Deploy ID,NESE0000LOML,NESE0840ANNU,NESE0841ANNU,NESE0005LOML,NESE0006LOML,NESE0007LOML,NESE0008LOML,0,0,0,0
+TOPP ID,2019058,2020045,2020046,2020047,2020048,2020049,2020050,2021041,2021042,2021043,2021045
+Deploy Time,,,,,,,,4/4/2021 23:00,4/4/2021 23:00,4/10/2021 23:58,4/26/2021 21:50
+Deploy Latitude,36.948644,37.113761,37.113761,36.948644,36.948644,36.948644,36.948644,36.95309,36.95309,36.95309,36.95309
+Deploy Longitude,-122.065416,-122.327811,-122.327811,-122.065416,-122.065416,-122.065416,-122.065416,-122.064361,-122.064361,-122.064361,-122.064361
+Initial sedation location,BBNS,APG,BBN,BBN,BBN,BBN,BBN,TSC,TSC,MBBL,BBSU
+Blood,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hematocrit,n/a,58 / 58 / 57 / broke,n/a,52 / 52 / 52 / 52,52 / 52 / 52 / 51,63 / 63 / 63 / 63,50 / 51 / 52 / 53,50 / 49 / 50 / 50,48 / 48 / 47 / 48,48 / 48 / 47 / 47,49 / 50 / 49 / 48
+Whisker,N,N,Y - LD1,N,N,N,N,N,N,N,N
+Fur,N,N,N,N,N,N,N,N,N,N,N
+Blubber,N,N,N,N,N,N,N,N,N,N,N
+Ultrasound skull depth_cm,,,2.5,2.01,1.96,1.85,1.9,2.2,2.06,2.33,2.48
+Recording Duration_s,317752.316,361858.448,348857.656,500603.236,511107.128,346393.656,362771.948,517957.272,436980.544,0,0
+Recording Duration_days,3.677688843,4.188176481,4.037704352,5.794018935,5.915591759,4.009185833,4.198749398,5.994875833,5.057645185,0,0
+Recording Duration_based on start stop,n/a,n/a,4.038194444,5.795138889,5.915972222,n/a,n/a,5.995486111,5.057638889,5.797916667,5.83125
+Begin Calm in Water for ICA,10/28/2019 5:52,4/12/2020 9:34,4/27/2020 7:35,10/1/2020 4:36,10/11/2020 19:54,10/19/2020 22:46,10/26/2020 18:10,336187-336515,4/5/2021 16:35,4/13/2021 9:23,4/28/2021 13:16
+End Calm in Water for ICA,10/28/2019 6:08,4/12/2020 9:47,4/27/2020 7:42,10/1/2020 4:54,10/11/2020 20:04,10/19/2020 22:56,10/26/2020 18:23,,4/5/2021 16:45,4/13/2021 9:43,4/28/2021 13:36
+Duration for ICA,0:16:00,0:12:38,0:07:28,0:17:54,0:09:31,0:09:45,0:13:43,,,,pruned 7 and 9; raw 6 and 9
+Best EOG EMG EEG,"2,4,7,8","3,4,7,8","3,5,7,8","2,4,7,8","3,4,7,8","3,4,7,8","2,5,7,8","3,5,7,8","2,4,7,8","3,5,6,7","3,5,6,9"
+ICA Decomposition Quality,Excellent,Good,OK,Good,OK,OK,Excellent,OK,Good,Good,OK
+ICA Component Maximal Brain,5,6,7,8,8,8,7,8,8,6,4
+ICA Component Maximal Heart,2,1,2,3,3,3,2,1,7,1,6
+Pruned with ICA Components,"1,2","1,2,3,4","1,2,3,9","1,2,3,6","1,3,4,7","1,3,4,7","1,2,3,4","1,3,7","1,2,4,7,9","1,3,5","1,2,3,6"
