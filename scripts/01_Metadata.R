@@ -57,7 +57,6 @@ colnames(info) <- description               # use description for column titles
 
 paste("Retrieving data for", SealID,"who was", info$Age, "and", info$Mass.animal._kg,"kilograms.")
 paste("Logger was started at", info$Logger.Start)
-paste("The logger restarted", info$Number.of.Restarts, "times")
 paste("The logger was deployed at", info$Deploy.Latitude, info$Deploy.Longitude)
 if (str_detect(info$Device.Failure,"Yes") == "TRUE"){
   paste("The device was blinking and not recording upon retrieval.")

@@ -1,0 +1,151 @@
+﻿New Table( "Untitled 17",
+	Add Rows( 6 ),
+	New Script(
+		"Make Into Data Table",
+		Names Default To Here( 1 );
+		platform = Data Table( "05_SignalData_paired" ) <<
+		Fit Model(
+			Y( :Standardized ),
+			Effects( :Location, :Version, :Location * :Version ),
+			Random Effects( :Seal.ID ),
+			NoBounds( 1 ),
+			Personality( "Mixed Model" ),
+			Run(
+				Repeated Effects Covariance Parameter Estimates( 0 ),
+				Multiple Comparisons(
+					Effect( :Location * :Version ),
+					Tukey HSD( 1, All Pairwise Differences Connecting Letters( 1 ) )
+				)
+			)
+		);
+		Wait( 0 );
+		Report( platform )[Outline Box( "Fit Mixed" )][
+		Outline Box( "Multiple Comparisons for Location*Version" )][
+		Outline Box( "Least Squares Means Estimates" )][Table Box( 1 )] <<
+		Make Into Data Table;
+		Report( platform ) << Close Window;
+	),
+	New Column( "Location",
+		Character,
+		"Nominal",
+		Set Property( "ID Column", 1 ),
+		Set Values( {"LAND", "LAND", "LAND", "WATER", "WATER", "WATER"} )
+	),
+	New Column( "Version",
+		Character,
+		"Nominal",
+		Set Property( "ID Column", 1 ),
+		Set Values( {"V1", "V2", "V3", "V1", "V2", "V3"} )
+	),
+	New Column( "Estimate",
+		Numeric,
+		"Continuous",
+		Format( "Fixed Dec", 12, 6 ),
+		Set Values(
+			[15.7627807493484, 14.9496725561796, 9.46987164796724, 7.00016316128746,
+			4.64120146043135, 7.90130516410723]
+		)
+	),
+	New Column( "Std Error",
+		Numeric,
+		"Continuous",
+		Format( "Fixed Dec", 12, 7 ),
+		Set Values(
+			[4.23342155145446, 1.81989681162515, 2.11917168471936, 4.59589133876094,
+			2.09324689469523, 2.878031710393]
+		)
+	),
+	New Column( "DF",
+		Numeric,
+		"Continuous",
+		Format( "Best", 12 ),
+		Set Values(
+			[6.94634374853517, 8.20757776290747, 6.97595080661022, 9.64914826412735,
+			14.594346342554, 22.9930297162179]
+		)
+	),
+	New Column( "Lower 95%",
+		Numeric,
+		"Continuous",
+		Format( "Fixed Dec", 12, 5 ),
+		Set Values(
+			[5.73663304278338, 10.7713862198061, 4.45532274892376, -3.29081693863607,
+			0.168725856071044, 1.94754309308665]
+		)
+	),
+	New Column( "Upper 95%",
+		Numeric,
+		"Continuous",
+		Format( "Fixed Dec", 12, 6 ),
+		Set Values(
+			[25.7889284559133, 19.1279588925532, 14.4844205470107, 17.291143261211,
+			9.11367706479166, 13.8550672351278]
+		)
+	),
+	Set Label Columns( :Location, :Version )
+) << Run Formulas;
+Graph Builder(
+	Variables(
+		X( :Version ),
+		Y( :Estimate ),
+		Overlay( :Location ),
+		Interval( :Std Error )
+	),
+	Elements( Bar( X, Y, Legend( 2 ) ) ),
+	SendToReport(
+		Dispatch(
+			{},
+			"400",
+			ScaleBox,
+			{Legend Model(
+				2,
+				Properties( 0, {Fill Color( 70 )}, Item ID( "LAND", 1 ) ),
+				Properties( 1, {Fill Color( 69 )}, Item ID( "WATER", 1 ) )
+			)}
+		),
+		Dispatch(
+			{},
+			"graph title",
+			TextEditBox,
+			{Set Text( "Signal Quality vs. Version and Location" )}
+		),
+		Dispatch( {}, "X title", TextEditBox, {Set Text( "Tag Version" )} ),
+		Dispatch( {}, "Y title", TextEditBox, {Set Text( "SWS δ/REM δ" )} ),
+		Dispatch(
+			{},
+			"Graph Builder",
+			FrameBox,
+			{Add Text Annotation(
+				Text( "A, B" ),
+				Fixed Size( 0 ),
+				Text Box( {24, 68, 61, 92} ),
+				Filled( 0 )
+			), Add Text Annotation(
+				Text( "A,C" ),
+				Fixed Size( 0 ),
+				Text Box( {188, 86, 222, 110} ),
+				Filled( 0 )
+			), Add Text Annotation(
+				Text( "A, B, C, D" ),
+				Fixed Size( 0 ),
+				Text Box( {349, 192, 414, 216} ),
+				Filled( 0 )
+			), Add Text Annotation(
+				Text( "A, B, C, D" ),
+				Fixed Size( 0 ),
+				Text Box( {401, 223, 466, 247} ),
+				Filled( 0 )
+			), Add Text Annotation(
+				Text( "C, D" ),
+				Fixed Size( 0 ),
+				Text Box( {106, 235, 144, 259} ),
+				Filled( 0 )
+			), Add Text Annotation(
+				Text( "B, D" ),
+				Fixed Size( 0 ),
+				Text Box( {267, 281, 305, 305} ),
+				Filled( 0 )
+			)}
+		)
+	)
+);
