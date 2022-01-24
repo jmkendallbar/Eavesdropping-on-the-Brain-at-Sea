@@ -16,7 +16,7 @@ Run this to get plots out of raw data excerpts provided in data folder.
 
 Column description of important data files:
 
-1. _00\_Sleep\_Study\_Metadata.csv_
+## _00\_Sleep\_Study\_Metadata.csv
 
  Metadata for all seals. All Excel Date Times are provided in the following format: &quot;mm/dd/yyyy hh:mm:ss&quot;. Row descriptions:
   1. **Test #** : recording # (includes test recordings between deployments)
@@ -67,7 +67,7 @@ Column description of important data files:
   46. **ICA Component Maximal Brain:** IC# that expressed maximal brain activity
   47. **Pruned with ICA Components:** ICs that were removed from EOG, EMG, and EEG signals for visual and quantitative analysis
 
-2. _05\_Signal\_Quality\_Data.csv_
+## _05\_Signal\_Quality\_Data.csv_
 
  Signal quality data for each observation (a 30-sec time period around each comment- See Cmt Text). Column descriptions:
   1. **Seconds.On.Animal:** Seconds since instrument attachment
@@ -100,7 +100,7 @@ Column description of important data files:
   28. **BEST\_EEG**
   29. **Cmt Text** : Comment placed during scoring (includes: Instrument ON Animal, SWS1, REM, SWS2, Heart Patterns Scorable, Sleep State Scorable, Eye Movement, Muscle Twitch, LS (light sleep), Animal Enters Water, Animal Exits Water)
 
-3. _05\_SignalData\_binned.csv_
+## _05\_SignalData\_binned.csv_
 
  Signal quality data summarized per day per animal. Column descriptions:
   1. **Observation #**
@@ -121,7 +121,7 @@ Column description of important data files:
   16. **Seal.Number** : Methods\_Paper\_SEALIDfrom S5\_00\_Sleep\_Study\_Metadata.xlsx.
   17. **AGE** : age from S5\_00\_Sleep\_Study\_Metadata.xlsx
 
-4. _05\_SignalData\_paired.csv_
+## _05\_SignalData\_paired.csv_
 
  Signal quality data summarized per sleep cycle. Column descriptions:
   1. **Observation #**
@@ -141,7 +141,7 @@ Column description of important data files:
   15. **REM:** REMδfor best EEG channel
   16. **Days.Elapsed:** Mean days on animal between SWS and REM observations
 
-5. _06\_Signal\_Quality\_Excerpts\_Across\_Locations.csv_
+## _06\_Signal\_Quality\_Excerpts\_Across\_Locations.csv_
 
  1-min excerpts of raw signals in different settings. Data can be plotted using R script 06\_SignalQuality\_Excerpts\_Plot.R in code repository. Column descriptions:
   1. **SecElapsed** : seconds since logger start
@@ -165,7 +165,7 @@ Column description of important data files:
   19. **Location:** LAND or SHALLOW (water)
   20. **Activity:** Galumphing (land), Swimming (water), Stationary (land or on the ocean floor), or Drifting (water).
 
-6. _06\_Signal\_Quality\_Excerpts\_Challenges\_Solutions.csv_
+## _06\_Signal\_Quality\_Excerpts\_Challenges\_Solutions.csv_
 
  1-min excerpts of challenges and solutions to signal recording obstacles. Data can be plotted using R script 06\_SignalQuality\_Excerpts\_Plot.R in code repository. Column descriptions:
   1. **SecElapsed** : seconds since logger start
