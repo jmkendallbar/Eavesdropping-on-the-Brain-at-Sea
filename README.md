@@ -81,8 +81,6 @@ Column description of important data files:
   9. **Sel Start:** Start time of observation hh:mm:ss
   10. **Sel End:** End time of observation hh:mm:ss
   11. **Sel Duration:** selection duration (all 30s)
-
- Data Channels:
   12. **Pressure\_mean :** mean pressure for selection
   13. **Pressure\_SD :** standard deviation of pressure for selection
   14. **REEG2\_Raw\_Ch7\_Mean**
