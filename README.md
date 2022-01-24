@@ -1,6 +1,6 @@
 # Eavesdropping-on-the-Brain-at-Sea
 
-## This Github repository contains data, protocols, and analyses to support the associated manuscript &quot;Eavesdropping on the brain at sea: the development of a surface-mounted brain monitoring device to detect weak electrophysiological signals from wild animals&quot;.
+## This Github repository contains data, protocols, and analyses to support the associated manuscript &quot;Eavesdropping on the brain at sea: Development of a surface-mounted system to detect weak electrophysiological signals from wild animals&quot;.
 
 Here is a table of contents to find what you are looking for:
 
