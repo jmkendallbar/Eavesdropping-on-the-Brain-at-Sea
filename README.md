@@ -8,6 +8,9 @@ Here is a table of contents to find what you are looking for:
 2. /scripts : folder with .R scripts and JMP reports
 3. /figures : folder with figures generated from R and/or edited Illustrator
 
+To get started: 
+You can open the Eavesdropping-on-the-Brain-at-Sea.Rproj file to open the R project. Relative file paths should work from there!
+
 # Scripts
 
 ## **01\_Metadata.R**
