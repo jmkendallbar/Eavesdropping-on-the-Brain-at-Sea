@@ -6,13 +6,18 @@ Here is a table of contents to find what you are looking for:
 
 1. /data : folder with raw, processed, and summarized data
 2. /scripts : folder with .R scripts and JMP reports
-  1. **01\_Metadata.R**
- Run this first to get metadata for all seals.
-  2. **06\_SignalQuality\_Analysis.R**
-Run this to get paired and binned summary stats for signal quality data.
-  3. **06\_SignalQuality\_Excerpts\_Plot.R**
-Run this to get plots out of raw data excerpts provided in data folder.
 3. /figures : folder with figures generated from R and/or edited Illustrator
+
+# Scripts
+
+## **01\_Metadata.R**
+ Run this first to get metadata for all seals.
+## **06\_SignalQuality\_Analysis.R**
+Run this to get paired and binned summary stats for signal quality data.
+## **06\_SignalQuality\_Excerpts\_Plot.R**
+Run this to get plots out of raw data excerpts provided in data folder.
+
+# Data
 
 Column description of important data files:
 
