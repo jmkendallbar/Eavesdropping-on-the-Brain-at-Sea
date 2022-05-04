@@ -18,6 +18,10 @@ This research compendium has been developed using the statistical programming la
 
 You can [download the compendium as a whole](https://github.com/jmkendallbar/Eavesdropping-on-the-Brain-at-Sea/archive/refs/heads/main.zip) or [clone this repository](https://github.com/jmkendallbar/Eavesdropping-on-the-Brain-at-Sea.git). After unzipping: - open the Eavesdropping-on-the-Brain-at-Sea.Rproj file in RStudio - run devtools::install() to ensure you have the packages this analysis depends on (also listed in the DESCRIPTION file). Finally, run the R scripts (in scripts 🗁) according to the steps below:
 
+# Licenses
+
+**Text and Figures**: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+
 # 🗁 Scripts
 
 ## **01\_Metadata.R**
