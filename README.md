@@ -4,7 +4,7 @@ This Github repository contains data, protocols, and analyses to support the ass
 
 > **Kendall-Bar, J.M.,** Mukherji, R., Lopez, C., Nichols, J., Lozano, D.L., Pitman, J.K., Holser,
 R.H., Beltran, R., Schalles, M., Field, C.L., Johnson, S.P., Vyssotski, A.L., Costa, D.P.,
-Williams, T.M. (2021). Eavesdropping on the brain at sea: the development of a noninvasive technique to maximize the detection of weak electrophysiological signals from wild animals. *Journal of Animal Biotelemetry* (2022): https://doi.org/10.1186/s40317-022-00287-x
+Williams, T.M. Eavesdropping on the brain at sea: the development of a noninvasive technique to maximize the detection of weak electrophysiological signals from wild animals. *Journal of Animal Biotelemetry* **(2022)**: https://doi.org/10.1186/s40317-022-00287-x
 
 Here is a table of contents to find what you are looking for:
 
