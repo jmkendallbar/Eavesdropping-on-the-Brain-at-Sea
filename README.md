@@ -11,9 +11,12 @@ Here is a table of contents to find what you are looking for:
 1. /data 🗁: folder with raw, processed, and summarized data
 2. /scripts 🗁: folder with .R scripts and JMP reports
 3. /figures 🗁: folder with figures generated from R and/or edited Illustrator
+4. /additional_files 🗁: folder with supplementary figures and statistics to support the manuscript
 
-To get started: 
-You can open the Eavesdropping-on-the-Brain-at-Sea.Rproj file to open the R project. Relative file paths should work from there!
+## To get started: 
+This research compendium has been developed using the statistical programming language R. To work with the compendium, you will need installed on your computer the [R software](https://cran.r-project.org/bin/windows/base/) itself and optionally [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/).
+
+You can [download the compendium as a whole](https://github.com/jmkendallbar/Eavesdropping-on-the-Brain-at-Sea/archive/refs/heads/main.zip) or [clone this repository](https://github.com/jmkendallbar/Eavesdropping-on-the-Brain-at-Sea.git). After unzipping: - open the Eavesdropping-on-the-Brain-at-Sea.Rproj file in RStudio - run devtools::install() to ensure you have the packages this analysis depends on (also listed in the DESCRIPTION file). Finally, run the R scripts (in scripts 🗁) according to the steps below:
 
 # 🗁 Scripts
 
