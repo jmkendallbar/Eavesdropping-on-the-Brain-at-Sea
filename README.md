@@ -1,7 +1,5 @@
 # Eavesdropping-on-the-Brain-at-Sea
 
-[![DOI:10.1186/s40317-022-00287-x](http://img.shields.io/badge/DOI-10.1186/s40317-022-00287-x-B31B1B.svg)](https://doi.org/10.1186/s40317-022-00287-x)
-
 This Github repository contains data, protocols, and analyses to support the associated manuscript:
 
 > **Kendall-Bar, J.M.,** Mukherji, R., Lopez, C., Nichols, J., Lozano, D.L., Pitman, J.K., Holser,
