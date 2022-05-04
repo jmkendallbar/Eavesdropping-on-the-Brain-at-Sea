@@ -1,17 +1,21 @@
 # Eavesdropping-on-the-Brain-at-Sea
 
-## This Github repository contains data, protocols, and analyses to support the associated manuscript &quot;Eavesdropping on the brain at sea: Development of a surface-mounted system to detect weak electrophysiological signals from wild animals&quot;.
+This Github repository contains data, protocols, and analyses to support the associated manuscript:
+
+> **Kendall-Bar, J.M.,** Mukherji, R., Lopez, C., Nichols, J., Lozano, D.L., Pitman, J.K., Holser,
+R.H., Beltran, R., Schalles, M., Field, C.L., Johnson, S.P., Vyssotski, A.L., Costa, D.P.,
+Williams, T.M. (2021). Eavesdropping on the brain at sea: the development of a noninvasive technique to maximize the detection of weak electrophysiological signals from wild animals. *Journal of Animal Biotelemetry* (2022): https://doi.org/10.1186/s40317-022-00287-x
 
 Here is a table of contents to find what you are looking for:
 
-1. /data : folder with raw, processed, and summarized data
-2. /scripts : folder with .R scripts and JMP reports
-3. /figures : folder with figures generated from R and/or edited Illustrator
+1. /data 🗁: folder with raw, processed, and summarized data
+2. /scripts 🗁: folder with .R scripts and JMP reports
+3. /figures 🗁: folder with figures generated from R and/or edited Illustrator
 
 To get started: 
 You can open the Eavesdropping-on-the-Brain-at-Sea.Rproj file to open the R project. Relative file paths should work from there!
 
-# Scripts
+# 🗁 Scripts
 
 ## **01\_Metadata.R**
  Run this first to get metadata for all seals.
@@ -20,7 +24,7 @@ Run this to get paired and binned summary stats for signal quality data.
 ## **06\_SignalQuality\_Excerpts\_Plot.R**
 Run this to get plots out of raw data excerpts provided in data folder.
 
-# Data
+# 🗁 Data
 
 Column description of important data files:
 
